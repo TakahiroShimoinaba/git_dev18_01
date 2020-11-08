@@ -1,0 +1,335 @@
+/* ここから下に記載していく */
+
+
+.header{
+
+    display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.header__nav{
+    display: flex;
+
+}
+
+.header__nav li{
+
+    margin-left: 50px;
+
+}
+
+/* 
+
+main visual
+
+*/
+.main__visual{
+
+    height: 400px;
+    background:url(../img/mainbg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main__message{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 30px;
+}
+
+.sub__message{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+
+/* 
+
+about
+
+*/
+.about{
+font-size: 24px;
+font-weight: bold;
+color: #ffd61a;
+text-align: center;
+margin-top: 60px;
+margin-bottom: 30px;
+
+}
+
+.about__sub1{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 60px;
+    
+    }
+.about__sub2{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 60px;       
+        }
+.about__text{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 1.8;
+       
+        }
+
+.imagebox{
+display: flex;
+margin-bottom: 60px;
+}
+
+.imagebox p{
+    width: 25%;
+}
+
+.imagebox p img{
+    width: 100%;
+}
+
+.course__title{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    
+    }
+
+.course__text{
+
+text-align: center;
+margin-bottom: 30px;
+line-height: 1.8;
+
+}
+
+/* 
+
+course
+
+*/
+
+
+
+.course2img{
+width: 500px;
+}
+
+.course-wrapper1{
+    display: flex
+
+
+}
+
+.course-wrapper2{ 
+    align-content: center;
+    
+    width: 430px;
+    padding: 120px 50px 120px 50px;
+    font-size: 16px;
+}
+
+.course-content{
+
+
+
+}
+.course-detail-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.course-detail-text{
+
+
+}
+    
+/* 
+
+news
+
+*/
+
+.newstitle{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd61a;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    
+    }    
+
+.newslist{
+    display: flex;
+    justify-content: space-between;
+width: 960px;
+margin: 0 auto;
+}
+
+.newslist__item{
+    width: 300px;
+}
+
+.newsdate{
+margin-top: 30px;
+margin-bottom: 24px;
+line-height: 1.8;
+
+}
+
+.morebtn__space{
+margin-top: 60px;
+
+}
+.morebtn{
+
+font-weight: bold;
+display: block;
+margin: auto;
+padding: 21px 0;
+text-align: center;
+width: 300px;
+background-color:  #ffd61a;
+color: white
+}
+
+/* 
+
+access
+
+*/
+
+.access{
+
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 120px;
+
+}
+
+.map{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+.cheesetitle{
+
+text-align: center;
+margin-bottom: 30px;
+
+}
+
+.cheesemail{
+
+    text-align: center;
+    margin-bottom: 120px;
+    
+    }
+
+
+    /* 
+
+contact
+
+*/
+
+.contact__noexist{
+
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+
+.formbox{
+width: 640px;
+margin: auto    ;
+}
+
+.formtitle{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+
+}
+
+.formparts{
+    width: 160px;
+    margin: 0 64px 0 16px;
+    
+}
+
+.formentry{
+width: 400px;
+margin-bottom: 8px;
+}
+
+.douki{
+    padding-bottom: 24px;
+om: 24px;
+
+}
+
+.fromentrybox{
+
+box-sizing: border-box;
+width: 100%;
+
+}
+
+.formtitle2{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+    margin: auto    ;
+
+}
+
+
+.submitbtn{
+
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    padding: 21px 0;
+    text-align: center;
+    width: 300px;
+    background-color:  #ffd61a;
+    color: white
+}
+
+.submitspace{
+
+    margin-top: 30px;
+    margin-bottom: 140px;
+
+}
+
+.copyright{
+
+background-color: #707070;
+padding: 30px;
+text-align: center;
+color: white;
+
+}
